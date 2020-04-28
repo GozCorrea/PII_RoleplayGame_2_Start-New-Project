@@ -18,7 +18,7 @@ namespace Libraty.Test
 
             Wizard test = new Wizard("wizardTest");
             
-            Assert.Equals(expected,test.AttackValue);
+            Assert.AreEqual(expected,test.AttackValue);
         }
         public void TestWzardValorDefense()
         {
@@ -28,7 +28,7 @@ namespace Libraty.Test
 
             Wizard test = new Wizard("wizardTest");
             
-            Assert.Equals(expected,test.DefenseValue);
+            Assert.AreEqual(expected,test.DefenseValue);
         }
     }
 }

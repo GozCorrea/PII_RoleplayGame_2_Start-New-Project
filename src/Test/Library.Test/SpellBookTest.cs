@@ -18,7 +18,7 @@ namespace Libraty.Test
            test.Spells = new Spell[]{ new Spell() };
             
             
-            Assert.Equals(expected, test.AttackValue);
+            Assert.AreEqual(expected, test.AttackValue);
         }
         public void TestSpellBookValorDefense()
         {
@@ -27,7 +27,7 @@ namespace Libraty.Test
            test.Spells = new Spell[]{ new Spell() };
             
             
-            Assert.Equals(expected, test.DefenseValue);
+            Assert.AreEqual(expected, test.DefenseValue);
         }
     }
 }
