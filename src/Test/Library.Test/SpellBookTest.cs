@@ -10,16 +10,19 @@ namespace Libraty.Test
         {
         }
 
+        
         [Test]
         public void TestSpellBookValorAtack()
         {
             const int expected = 70;
             SpellsBook test = new SpellsBook();
-           test.Spells = new Spell[]{ new Spell() };
+            test.Spells = new Spell[]{ new Spell() };
+            
             
             
             Assert.AreEqual(expected, test.AttackValue);
         }
+        [Test]
         public void TestSpellBookValorDefense()
         {
             const int expected = 70;
@@ -29,5 +32,6 @@ namespace Libraty.Test
             
             Assert.AreEqual(expected, test.DefenseValue);
         }
+        
     }
 }
