@@ -22,6 +22,7 @@ namespace Libraty.Test
             
             Assert.AreEqual(expected, test.AttackValue);
         }
+        [Test]
         public void TestSpellBookValorDefense()
         {
             const int expected = 70;

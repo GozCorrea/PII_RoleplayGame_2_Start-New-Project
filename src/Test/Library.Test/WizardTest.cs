@@ -24,6 +24,7 @@ namespace Libraty.Test
 
             Assert.AreEqual(expected , test.AttackValue);
         }
+        [Test]
         public void TestWzardValorDefense()
         {
             int expected = 170;
