@@ -1,6 +1,6 @@
 namespace RoleplayGame
 {
-    public class Helmet
+    public class Helmet : IDefenseElement
     {
         public int DefenseValue
         {
